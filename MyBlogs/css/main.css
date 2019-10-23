@@ -52,7 +52,8 @@
             line-height: 1;
         }
         
-        .article-list {
+        .article-list,
+        .article {
             margin-right: 30%;
             background: #fff;
             padding: 20px, 30px;
@@ -81,4 +82,12 @@
             margin-right: 30px;
             margin-top: 0;
             font-family: "宋体";
+        }
+        
+        p {
+            margin-left: 20%;
+        }
+        
+        .intro {
+            font-size: 13px;
         }
