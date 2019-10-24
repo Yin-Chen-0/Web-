@@ -1,0 +1,93 @@
+        body {
+            background: #454545;
+            line-height: 1.7;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a,
+        body {
+            color: #eee;
+        }
+        
+        .side-bar {
+            float: lerft;
+            width: 20%;
+            position: fixed;
+        }
+        
+        .main {
+            float: right;
+            width: 80%;
+            background: #454545;
+            color: #4545;
+        }
+        
+        .side-bar>* {
+            padding: 15px 20px;
+        }
+        
+        .side-bar .nav a,
+        .side-bar .tag-list a {
+            display: block;
+            padding: 5px;
+            color: #888;
+            transition: 20ms;
+            font-weight: 700;
+        }
+        
+        .side-bar .nav a:hover,
+        .side-bar .tag-list a:hover {
+            color: #eee;
+        }
+        
+        .header .logo {
+            border: 5px solid #eee;
+            padding: 10px 20px;
+            font-size: 30px;
+            display: inline-block;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+        
+        .article-list,
+        .article {
+            margin-right: 30%;
+            background: #fff;
+            padding: 20px, 30px;
+            color: #000;
+        }
+        
+        .article-list .item .title {
+            margin-left: 20px;
+            font-size: 22px;
+            font-weight: 500;
+            color: #454545;
+        }
+        
+        .article-list .item .status {
+            font-size: 13px;
+            color: #ccc;
+            margin-left: 30px;
+        }
+        
+        .article-list .item {
+            margin-bottom: 100px;
+        }
+        
+        .article-list .item .content {
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 0;
+            font-family: "宋体";
+        }
+        
+        p {
+            margin-left: 20%;
+        }
+        
+        .intro {
+            font-size: 13px;
+        }
